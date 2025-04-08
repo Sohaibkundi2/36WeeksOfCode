@@ -124,6 +124,7 @@ margin -> border -> padding -> content
 ```
 - 🎯 Adds polish. Recruiters notice smooth UI.
 - Used to make user engaged
+- More Examples are in index.html file
 ---
 ## 6. Position 
   
