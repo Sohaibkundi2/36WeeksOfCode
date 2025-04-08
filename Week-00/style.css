@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    padding: 50px;
+    background: #ecf8fc;
+  }
+  
+  .heading {
+    animation: fadeIn 4s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .box {
+    margin: 50px;
+    padding: 50px;
+    background: #75c1ff;
+    border-radius: 8px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background: rgb(57, 93, 200);
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: rgb(5, 180, 5);
+  }
+  
+  .card {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    background: #06b1e5;
+    text-align: center;
+    line-height: 100px;
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.3);
+    background-color: aqua;
+    transition: all .3s;
+    transform: rotate(6deg);
+  }
+  
