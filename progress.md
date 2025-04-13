@@ -3,7 +3,7 @@
 | Week | Title                  | Status       | Notes/Link |
 |------|------------------------|--------------|------------|
 | Week-00 | HTML & CSS Refresher | ✅ Completed | - [Week 00 Notes](./Week-00/README.md) |
-| Week-01 |  | 🔲 Not Started |  |  Working     |
+| Week-01 |  | JS Basic to Advance |  | ✅ Completed |- [Week 01 Notes](./Week-01/README.md) |
 | Week-02 |  | 🔲 Not Started |  |
 | Week-03 |  | 🔲 Not Started |  |
 | Week-04 |  | 🔲 Not Started |  |
