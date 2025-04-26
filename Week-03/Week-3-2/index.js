@@ -3,9 +3,10 @@ const express = require("express");
 const { z } = require("zod");
 //  z is a TypeScript-first schema declaration and validation library
 //  zod is a TypeScript-first schema declaration and validation library
-
 const app = express();
 app.use(express.json()); // Global middleware for JSON parsing
+
+const PORT = 3000;
 
 // Zod schema
 const userSchema = z.object({
@@ -33,6 +34,6 @@ app.use((err, req, res, next) => {
 });
 
 // Start server
-app.listen(3000, () => {
-  console.log("Server is running on http://localhost:3000");
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
 });

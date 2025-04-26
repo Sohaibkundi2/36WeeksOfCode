@@ -15,7 +15,7 @@ fetch("https://api.example.com/data")
   .then(res => res.json())
   .then(data => console.log(data));
 ```
-
+- Another example are in script file
 ---
 
 ## 🚀 Creating a Fetch POST Request

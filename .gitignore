@@ -1,3 +1,6 @@
 # Ignore all weeks from Week 2 to Week 36
 ./Week-0[3-9]/
 ./Week-[1-9][0-9]/
+
+# node modules
+Week-03/Week-3-2/node_modules/
