@@ -1,4 +1,4 @@
-# 📘 Week 3.1 | Middlewares And Global Catches, Zod
+# 📘 Week 3.2 | Middlewares And Global Catches, Zod
 
 This week, we focus on core Express.js concepts including **routing**, **middlewares**, **error handling**, and **input validation** using **Zod**.
 
