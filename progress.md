@@ -5,8 +5,8 @@
 | Week-00 | HTML & CSS Refresher | ✅ Completed | - [Week 00 Notes](./Week-00/README.md) |
 | Week-01 | JS Basic to Advance  | ✅ Completed |- [Week 01 Notes](./Week-01/) |
 | Week-02 | Revision + Git Github + Express  | ✅ Completed |- [Week 02 Notes](./Week-02/) |
-| Week-03 |  Express + database  | Working |- [Week 03 Notes](./Week-03/) |
-| Week-04 |  | 🔲 Not Started |  |
+| Week-03 |  Express + database  | ✅ Completed |- [Week 03 Notes](./Week-03/) |
+| Week-04 |  mongo + react basic  | Working |- [Week 04 Notes](./Week-04/) |
 | Week-05 |  | 🔲 Not Started |  |
 | Week-06 |  | 🔲 Not Started |  |
 | Week-07 |  | 🔲 Not Started |  |
