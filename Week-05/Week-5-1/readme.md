@@ -44,7 +44,7 @@ React came to make frontend development:
 It's not just a library — it's a better way of thinking about UI building.
 
 ---
-# Why react came ?
+# What problem react solved ?
 before comming of react , vanilla javascript or jquery were used to build application and websites but as those web application become larger, sevral problems become normal
 
 - manual dom manipualtion (every time get  element from html tree)
