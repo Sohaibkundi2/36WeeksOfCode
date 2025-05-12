@@ -19,3 +19,94 @@ function addNums(){
 
 }
 
+
+
+// todo app
+
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    let inputData = document.getElementById("todo-input")
+    let addBtn = document.getElementById("add-todo")
+    let todoList = document.getElementById("todo-list")
+
+
+    let todoArray = JSON.parse(localStorage.getItem("todoArray")) || []
+
+    todoArray.forEach((item) => {
+        renderTasks(item)
+    })
+    addBtn.addEventListener("click", function(){
+        const taskText = inputData.value.trim()
+        if(taskText === ""){
+            alert("Please enter a task")}
+        else{
+
+            let todo = {
+                id: Date.now(),
+                text: taskText,
+                isCompleted: false
+            }
+            todoArray.push(todo)
+            saveItems()
+            renderTasks(todo)
+            inputData.value = ""
+        }
+    })
+
+    function renderTasks(item){
+        let li = document.createElement("li")
+        li.innerHTML=`<span>${item.text}</span> <button>Delete</button>`
+        todoList.appendChild(li)
+
+        if (item.isCompleted) {
+            li.classList.add("completed");
+        }
+
+        let deleteButton = li.querySelector("button");
+        li.addEventListener("click",(e)=>{
+            if (e.target !== deleteButton) {
+                item.isCompleted = !item.isCompleted; // Toggle isCompleted
+                li.classList.toggle("completed");
+                saveItems();
+            }
+        })
+
+        deleteButton.addEventListener("click", (e) => {
+            e.stopPropagation(); // Prevent triggering the click event on li
+            todoArray = todoArray.filter((todo) => todo.id !== item.id);
+            deleteButton.parentElement.remove();
+            saveItems();
+        });
+    }
+
+
+    saveItems = () => {
+        localStorage.setItem("todoArray", JSON.stringify(todoArray))
+    }
+});
+
+// calculator
+
+ const display = document.getElementById('display');
+ const buttons = document.querySelectorAll('.btn');
+
+ let currentInput = '';
+
+ buttons.forEach(button =>{
+    button.addEventListener('click',()=>{
+        const value = button.innerText
+        if(value === 'C'){
+            currentInput = ''
+        }else if(value ==='='){
+             try {
+          currentInput = eval(currentInput); 
+        } catch (error) {
+          currentInput = 'Error';
+        }
+        } else{
+            currentInput += value;
+        }
+        display.value = currentInput;
+    })
+ })

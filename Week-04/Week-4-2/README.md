@@ -4,7 +4,7 @@ This week introduces React — a powerful JavaScript library for building user i
 
 ---
 
-## 🧱 Static vs Dynamic Website
+##  Static vs Dynamic Website
 
 * **Static Website**:
 
@@ -26,54 +26,24 @@ This week introduces React — a powerful JavaScript library for building user i
 * Reusability and component-based UI were lacking.
 * React provides a **modern way** to build scalable and interactive UIs.
 
----
-
-## ❓ What Problems Does React Solve?
-
-* Eliminates full page reloads with **Single Page Application (SPA)** behavior.
-* Uses **Virtual DOM** to efficiently update only the changed parts of the UI.
-* Introduces **components** that make code reusable and manageable.
-* Handles **state management** and **re-rendering** smoothly.
+### Why we use react?
+It allows you to efficiently update multiple state variables at once without reloading the page
 
 ---
 
-## 🔁 Core React Concepts
-
-### 1. Components
-
-* Reusable pieces of UI.
-* Example: Buttons, forms, navbars, cards.
-
-```jsx
-function Welcome() {
-  return <h1>Hello, Sohaib!</h1>;
-}
+##  What Problems Does React Solve?
 ```
-
----
-
-### 2. State
-
-* Holds dynamic data that changes over time.
-* Triggers a re-render when updated.
-
-```jsx
-import { useState } from "react";
-
-function Counter() {
-  const [count, setCount] = useState(0);
-  return (
-    <button onClick={() => setCount(count + 1)}>
-      Count is {count}
-    </button>
-  );
-}
+React was created by Facebook to solve performance and maintenance issues in their complex UI, especially in the notification system. Traditional DOM manipulation (using jQuery or vanilla JS) was causing bugs and performance bottlenecks. React introduced a virtual DOM, component-based architecture, and one-way data flow, which made building fast, scalable, and maintainable UIs much easier.
 ```
-
 ---
 
-### 3. Re-rendering
+##  Core React Concepts
 
-* When the state or props of a component change, React **automatically updates the UI**.
+### State:
+State is a special variable in React that holds data that can change over time. When the state changes, React automatically re-renders the component to reflect the new data.
 
----
+### Components:
+Components are the building blocks of a React application. They are reusable pieces of UI, often written as functions, that manage their own state and behavior.
+
+### Re-rendering:
+Re-rendering is the process where React updates the UI to reflect changes in the state or props. React compares the new state with the old one and updates only the parts of the UI that need to change.
