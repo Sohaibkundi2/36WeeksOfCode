@@ -45,13 +45,7 @@ It's not just a library — it's a better way of thinking about UI building.
 
 ---
 # What problem react solved ?
-before comming of react , vanilla javascript or jquery were used to build application and websites but as those web application become larger, sevral problems become normal
-
-- manual dom manipualtion (every time get  element from html tree)
-- no reuseable compunent, so the code become larger and unclean 
-- UI not update manually
-- debuging problem (by using html css and js, the code files become confusing while debuging)
-- Poor performance in large apps
+React was created by Facebook to solve performance and maintenance issues in their complex UI, especially in the notification system. Traditional DOM manipulation (using jQuery or vanilla JS) was causing bugs and performance bottlenecks. React introduced a virtual DOM, component-based architecture, and one-way data flow, which made building fast, scalable, and maintainable UIs much easier.
 
 
 ---
