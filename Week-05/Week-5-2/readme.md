@@ -38,3 +38,7 @@ Whenever:
 - Props change (data passed to a component)
 
  React automatically re-draws the component with updated data.
+
+---
+## Simple Counter app ScreenShot
+![Screenshot](image.png)
