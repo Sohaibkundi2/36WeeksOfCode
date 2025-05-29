@@ -108,6 +108,13 @@ function FocusInput() {
   );
 }
 ```
+---
+
+## Reconcilliation
+Reconcilliation is the process of comparing the virtual DOM with the real DOM and updating the real DOM to match the virtual DOM.
+- It compares the new UI with the old UI, finds the differences (called a diff), and updates only what’s necessary.
+- This makes your app faster and more efficient.
+- And make UI updates smooth.
 
 ---
 
