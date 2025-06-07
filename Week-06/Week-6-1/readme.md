@@ -117,4 +117,18 @@ Reconcilliation is the process of comparing the virtual DOM with the real DOM an
 - And make UI updates smooth.
 
 ---
+## Re-Rendering
 
+Re-rendering happens when a React component updates and runs its function again due to changes in state, props, or context. This is how React updates the UI when something changes.
+
+## useMemo
+useMemo is a React hook that caches the result of a function. It helps avoid expensive recalculations on every render unless its dependencies change.
+```js
+const result = useMemo(() => expensiveFunction(a, b), [a, b]);
+```
+## useCallback
+useCallback is a React hook that caches a function so it’s not recreated on every render. Useful when passing functions to child components to prevent unnecessary renders.
+
+```js
+const handleClick = useCallback(() => doSomething(id), [id]);
+```
