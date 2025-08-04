@@ -12,7 +12,7 @@
 | Week-07 |  State Management in React|   Completed |  - [Week 07 Notes](./Week-07/) |
 | Week-08 |    Tailwind css    |  Completed | - [Week 08 Notes](./Week-08/) |
 | Week-09 |  TS and Hooks      |   Completed | - [Week 09 Notes](./Week-09/) |
-| Week-10 |   Postgres, Prisma    |    working  |  - [Week 10 Notes](./Week-10/) |
+| Week-10 |   Postgres, Prisma    |    Completed  |  - [Week 10 Notes](./Week-10/) |
 | Week-11 |  | 🔲 Not Started |  |
 | Week-12 |  | 🔲 Not Started |  |
 | Week-13 |  | 🔲 Not Started |  |
