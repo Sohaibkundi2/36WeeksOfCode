@@ -29,3 +29,8 @@ Now the other person will cook exactly the same biryani no matter where they are
 - It packs your app along with everything it needs (like code, Node.js version, libraries, etc.) into one container.
 
 - So when someone runs that container, it works exactly the same on their machine, in production, or in the cloud.
+
+### Ist project 
+```
+docker run hello-world
+```
