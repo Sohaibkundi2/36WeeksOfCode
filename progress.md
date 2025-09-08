@@ -14,7 +14,7 @@
 | Week-09 |  TS and Hooks      |   Completed | - [Week 09 Notes](./Week-09/) |
 | Week-10 |   Postgres, Prisma    |    Completed  |  - [Week 10 Notes](./Week-10/) |
 | Week-11 |  Serverless FNS, AWS  |   Completed     |- [Week 11 Notes](./Week-11/) |
-| Week-12 |  AWS deployment, npm, monorepo  |   Working     |- [Week 12 Notes](./Week-12/) |
+| Week-12 |  AWS deployment, npm, monorepo  |  Completed     |- [Week 12 Notes](./Week-12/) |
 | Week-13 |  | 🔲 Not Started |  |
 | Week-14 |  Nextjs with project    |   Completed |  - [Week 14 Notes](./Week-14/) |
 | Week-15 |    Docker and related   |   Working   | - [Week 15 Notes](./Week-15/) |
