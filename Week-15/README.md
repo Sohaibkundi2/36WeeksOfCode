@@ -34,3 +34,19 @@ Now the other person will cook exactly the same biryani no matter where they are
 ```
 docker run hello-world
 ```
+### For any Help
+```
+docker --help
+```
+
+
+##  What I Learned Today
+- Installed and set up Docker with WSL2
+- Ran first container: `docker run hello-world`
+- Managed containers: `docker ps`, `docker stop`, `docker rm`
+- Managed images: `docker images`, `docker rmi`
+- Learned about detached mode `-d`
+- Ran Nginx container and accessed it at `http://localhost:8080`
+- Edited files with `vim` (and learned how to exit 😅)
+
+
